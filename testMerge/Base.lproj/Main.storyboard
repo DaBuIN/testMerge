@@ -124,6 +124,14 @@
                                     <segue destination="Gvx-Dz-SNv" kind="unwind" unwindAction="homeWithSegue:" id="y2s-FZ-aju"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yO8-Ch-61h">
+                                <rect key="frame" x="288" y="146" width="53" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="add btn"/>
+                                <connections>
+                                    <segue destination="EEd-nf-6VO" kind="show" id="bsY-1p-9Ge"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -134,4 +142,7 @@
             <point key="canvasLocation" x="1386" y="91"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="bsY-1p-9Ge"/>
+    </inferredMetricsTieBreakers>
 </document>
