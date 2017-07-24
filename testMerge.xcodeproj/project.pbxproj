@@ -14,6 +14,7 @@
 		14EAE0191F25EC8900E3C81D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14EAE0171F25EC8900E3C81D /* LaunchScreen.storyboard */; };
 		14EAE0211F25ED5700E3C81D /* p2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAE0201F25ED5700E3C81D /* p2ViewController.swift */; };
 		14EAE0231F25ED6200E3C81D /* p3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAE0221F25ED6200E3C81D /* p3ViewController.swift */; };
+		842D8C8C1F25F09600711A07 /* p4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D8C8B1F25F09600711A07 /* p4ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		14EAE01A1F25EC8900E3C81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14EAE0201F25ED5700E3C81D /* p2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = p2ViewController.swift; path = ../p2ViewController.swift; sourceTree = "<group>"; };
 		14EAE0221F25ED6200E3C81D /* p3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = p3ViewController.swift; path = ../p3ViewController.swift; sourceTree = "<group>"; };
+		842D8C8B1F25F09600711A07 /* p4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = p4ViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				14EAE00E1F25EC8900E3C81D /* AppDelegate.swift */,
 				14EAE0101F25EC8900E3C81D /* ViewController.swift */,
 				14EAE0121F25EC8900E3C81D /* Main.storyboard */,
+				842D8C8B1F25F09600711A07 /* p4ViewController.swift */,
 				14EAE0151F25EC8900E3C81D /* Assets.xcassets */,
 				14EAE0171F25EC8900E3C81D /* LaunchScreen.storyboard */,
 				14EAE01A1F25EC8900E3C81D /* Info.plist */,
@@ -145,6 +148,7 @@
 			files = (
 				14EAE0111F25EC8900E3C81D /* ViewController.swift in Sources */,
 				14EAE0211F25ED5700E3C81D /* p2ViewController.swift in Sources */,
+				842D8C8C1F25F09600711A07 /* p4ViewController.swift in Sources */,
 				14EAE00F1F25EC8900E3C81D /* AppDelegate.swift in Sources */,
 				14EAE0231F25ED6200E3C81D /* p3ViewController.swift in Sources */,
 			);
@@ -312,6 +316,7 @@
 				14EAE01F1F25EC8900E3C81D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
